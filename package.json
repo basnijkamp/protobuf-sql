@@ -1,0 +1,26 @@
+{
+  "name": "protobuf-sql",
+  "version": "1.0.0",
+  "description": "Convert .proto (Proto Buffers) to SQL CREATE TABLE statements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sql-protobuf": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basnijkamp/protobuf-sql.git"
+  },
+  "author": "Bas Nijkamp <basnijkamp@gmail.com> (http://basnijkamp.com/)",
+  "license": "BSD-2",
+  "bugs": {
+    "url": "https://github.com/basnijkamp/protobuf-sql/issues"
+  },
+  "homepage": "https://github.com/basnijkamp/protobuf-sql",
+  "dependencies": {
+    "protocol-buffers-schema": "^2.0.3",
+    "tape": "^4.2.0"
+  }
+}
